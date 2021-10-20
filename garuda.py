@@ -1,5 +1,9 @@
 import nmap
-scanner = nmap.PortScanner()         
+
+scanner = nmap.PortScanner()         # instantiate nmap.PortScanner object
+
+
+#ip_addr = '127.0.0.1'
 
 #pembukaan alat garuda NMAP
 print("""
@@ -11,7 +15,7 @@ print("""
  [>] Website        :]
 """)
 
-print("DISCLAIMER: menggunakan alat garuda NMAP dalam penyadapan sistem komputer ataupun bentuk tujuan meretas tanpa ijin oleh pihak itu sama dengan perbuatan ilegal.\n alat garuda NMAP di ciptakan untuk pengujian penetrasi keamanan jaringan.saya tidak mau bertanggung jawab jika anda melakukan hal peretasan tanpa ijin oleh pihak!")
+print("[!] DISCLAIMER: menggunakan alat garuda NMAP dalam penyadapan sistem komputer ataupun bentuk tujuan meretas tanpa ijin oleh pihak itu sama dengan perbuatan ilegal.\n alat garuda NMAP di ciptakan untuk pengujian penetrasi keamanan jaringan.saya tidak mau bertanggung jawab jika anda melakukan hal peretasan tanpa ijin oleh pihak!")
 print('\n')
 
 
@@ -20,19 +24,23 @@ print("""
 ================================
 [+]       GARUDA NMAP        [+]
 ================================
- [1] Port Scan                 
- [2] Deteksi Sistem Operasi 
- [3] Bantuan                   
- [4] Keluar                    
+ [1] Scan Port              
+ [2] Deteksi Sistem Operasi
+ [3] Deteksi Status Jaringan
+ [4] Bantuan                   
+ [5] Keluar                    
                               
 ================================
 \n""")
 while True:
  print("\n")
+ #tanya user
  tanyaUser = input("[+] pilih nomor yang anda mau : ")
 
+#jika user pilih nomor 1
  if tanyaUser == "1":
      try:
+         #scan port pada sasaran
          port_scan_garudaNMAP = input("[+] masukkan sasaran pada garuda NMAP : ")
          scanner.scan(port_scan_garudaNMAP, '1-10', '-v -sS')
          print("[+] info pada sasaran : ", scanner.scaninfo())
@@ -48,10 +56,29 @@ while True:
 
      except:
          print("Maaf yang anda masukkan salah!\n")
- elif tanyaUser != "1" and tanyaUser != "2" and tanyaUser != "3" and tanyaUser != "4":
-     print("Maaf nomor yang anda masukkan salah!")
+         
+#jika user bukan memilih nomor 1, 2, 3, 4, 5
+ elif tanyaUser != "1" and tanyaUser != "2" and tanyaUser != "3" and tanyaUser != "4" and tanyaUser != "5":
+     #Kasih peringatan
+     print("[-] maaf nomor yang anda masukkan salah!")
 
+#jika selain user pilih nomor 2
+ elif tanyaUser == '2':
+    #scan sistem operasi pada sasaran
+    port_scan_garudaNMAP = input("[+] masukkan sasaran pada garuda NMAP : ")
+    machine = scanner.scan(port_scan_garudaNMAP , arguments='-O')
+    print("[+] sistem operasi pada sasaran : ", machine['scan'][port_scan_garudaNMAP]['osmatch'][0])
+
+#jika selain user pilih nomor 3
  elif tanyaUser == "3":
+     #cek status jaringan pada sasaran
+     port_scan_garudaNMAP = input("[+] masukkan sasaran pada garuda NMAP : ")
+     scanner.scan(hosts=port_scan_garudaNMAP, arguments='-n -sP -PE -PA21,23,80,3389')
+     print("[+] status jaringan pada sasaran : ", scanner[port_scan_garudaNMAP].state())
+
+#jika selain user pilih nomor 4
+ elif tanyaUser == "4":
+    #info pada bantuan garuda NMAP
      print("""
 [!] BANTUAN :
 
@@ -59,9 +86,12 @@ while True:
 
  Masukkan sasaran pada garuda NMAP : 127.0.0.1
 
- Maka akan muncul informasi sasaran yang anda telah lakukan. ini berlaku pada semua perintah yang terdapat pada garuda NMAP seperti deteksi sistem operasi.
+ Maka akan muncul informasi sasaran yang anda telah lakukan. ini berlaku pada perintah nomor 2, 3, pada garuda NMAP.
 """)
- elif tanyaUser == "4":
+
+ elif tanyaUser == "5":
      exit
      break
- 
+
+
+
