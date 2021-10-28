@@ -14,9 +14,7 @@ Ketika kamu menggunakan alat saya ini cukup kamu perlu menginstall alat NMAP asl
 # Pemakaian Garuda NMAP Pada Windows
 ```
 C:\Users\GalihAp76>cd nmap
-
 C:\Users\GalihAp76\nmap>
-
 C:\Users\GalihAp76\nmap>garuda.py
   ____                      _         _   _ __  __    _    ____
  / ___| __ _ _ __ _   _  __| | __ _  | \ | |  \/  |  / \  |  _ \
@@ -61,6 +59,7 @@ Dalam distro kali linux pada Garuda NMAP kamu cukup git clone dan copy di atas.
 
 # Pemakaian Garuda NMAP Pada Kali Linux
 ```
+cd python-garuda-NMAP/
 python3 garuda.py
   ____                      _         _   _ __  __    _    ____
  / ___| __ _ _ __ _   _  __| | __ _  | \ | |  \/  |  / \  |  _ \
