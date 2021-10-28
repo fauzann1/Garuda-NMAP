@@ -13,7 +13,7 @@ Sebenarnya sebuah alat pentesting dan keamanan jaringan yang saya ciptakan berna
 # Penginstallan Garuda NMAP
 
 # Windows
-Ketika kamu menggunakan alat saya ini cukup kamu perlu menginstall alat NMAP aslinya dulu agar alat yang saya kembangkan bisa berjalan dan kamu perlu install sebuah bahasa pemrograman python pada sistem operasi windows kamu. jadikan alat saya yang mau kamu gunakan nanti berada pada satu folder NMAP. menggunakan alat saya pada windows cukup rumit karena harus menginstall beberapa package dan menaruh folder yang tepat pada Garuda NMAP.
+Ketika kamu menggunakan alat saya ini cukup kamu perlu menginstall alat NMAP aslinya dulu agar alat yang saya telah ciptakan bisa berjalan dan kamu perlu install sebuah bahasa pemrograman python pada sistem operasi windows kamu. jadikan alat saya yang mau kamu gunakan nanti berada pada satu folder NMAP. menggunakan alat saya pada windows cukup rumit karena harus menginstall beberapa package dan menaruh folder yang tepat pada Garuda NMAP.
 
 # Pemakaian Garuda NMAP Pada Windows
 ```
@@ -101,5 +101,5 @@ python3 garuda.py
 ```
 
 # Pemberitahuan Dari Saya
-Perlu di ingat lagi alat yang saya ciptakan bertujuan sebagai bentuk peretasan etis, projek, pembelajaran. saya mohon ketika kamu ingin menggunakan alat saya ini tolong di gunakan dengan baik.
+Perlu di ingat lagi alat yang saya ciptakan bertujuan sebagai bentuk peretasan etis, projek, pembelajaran. saya mohon ketika kamu ingin menggunakan alat saya ini tolong di gunakan dengan baik dan jika kamu ingin melakukan scan port lebih lengkap lebih baik kamu gunakan versi NMAP yang asli. 
 
