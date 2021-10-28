@@ -14,7 +14,9 @@ Ketika kamu menggunakan alat saya ini cukup kamu perlu menginstall alat NMAP asl
 # Pemakaian Garuda NMAP Pada Windows
 ```
 C:\Users\GalihAp76>cd nmap
+
 C:\Users\GalihAp76\nmap>
+
 C:\Users\GalihAp76\nmap>garuda.py
   ____                      _         _   _ __  __    _    ____
  / ___| __ _ _ __ _   _  __| | __ _  | \ | |  \/  |  / \  |  _ \
@@ -56,6 +58,44 @@ C:\Users\GalihAp76\nmap>garuda.py
 git clone https://github.com/galihap76/python-garuda-NMAP.git
 ```
 Dalam distro kali linux pada Garuda NMAP kamu cukup git clone dan copy di atas.
+
+# Pemakaian Garuda NMAP Pada Kali Linux
+```
+python3 garuda.py
+  ____                      _         _   _ __  __    _    ____
+ / ___| __ _ _ __ _   _  __| | __ _  | \ | |  \/  |  / \  |  _ \
+| |  _ / _` | '__| | | |/ _` |/ _` | |  \| | |\/| | / _ \ | |_) |
+| |_| | (_| | |  | |_| | (_| | (_| | | |\  | |  | |/ ___ \|  __/
+ \____|\__,_|_|   \__,_|\__,_|\__,_| |_| \_|_|  |_/_/   \_\_|
+
+
+
+ [>] Di Koding Oleh : Galih Anggoro Prasetya
+ [>] Github         : https://github.com/galihap76
+ [>] Website        : https://galihap76.github.io/dokumentasi-garuda-nmap.github.io/index.html
+
+
+
+
+================================
+[+]       GARUDA NMAP        [+]
+================================
+ [1] Scan Port
+ [2] Deteksi Sistem Operasi
+ [3] Deteksi Status Jaringan
+ [4] Bantuan
+ [5] Keluar
+
+================================
+
+[!] DISCLAIMER: menggunakan alat garuda NMAP dalam penyadapan sistem komputer ataupun bentuk tujuan meretas tanpa ijin oleh pihak itu sama dengan perbuatan ilegal.
+ alat garuda NMAP di ciptakan untuk pengujian penetrasi keamanan jaringan. saya tidak mau bertanggung jawab jika anda melakukan hal peretasan tanpa ijin oleh pihak!
+
+
+
+
+[+] pilih nomor yang anda mau :
+```
 
 # Pemberitahuan Dari Saya
 Perlu di ingat lagi alat yang saya ciptakan bertujuan sebagai bentuk peretasan etis, projek, pembelajaran. saya mohon ketika kamu ingin menggunakan alat saya ini tolong di gunakan dengan baik.
