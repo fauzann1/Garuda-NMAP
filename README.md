@@ -6,6 +6,10 @@ Sebenarnya sebuah alat pentesting dan keamanan jaringan yang saya ciptakan berna
 2. Deteksi Sistem Operasi
 3. Deteksi Status Jaringan
 
+# Di Uji Pada :
+- Windows
+- Kali Linux
+
 # Penginstallan Garuda NMAP
 
 # Windows
