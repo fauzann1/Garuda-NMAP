@@ -1,5 +1,5 @@
 # Garuda NMAP
-Sebenarnya sebuah alat pentesting dan keamanan jaringan yang saya ciptakan bernama Garuda NMAP. alat ini saya menggunakan library python NMAP sebagai bentuk awal tercipta nya alat Garuda NMAP ini. alat yang saya ciptakan bertujuan hanya sebagai bentuk peretasan etis, projek, pembelajaran. ketika kamu ingin install alat ini, saya akan memberitahukan bagaimana penginstallan alat Garuda NMAP nanti. alat yang saya ciptakan tidak sebagus dan secanggih versi NMAP yang asli.
+Sebuah alat pemetaan jaringan, keamanan jaringan, pengujian penetrasi yang saya ciptakan bernama Garuda NMAP. alat ini saya menggunakan library python NMAP sebagai bentuk awal tercipta nya alat Garuda NMAP ini. alat yang saya ciptakan bertujuan hanya sebagai bentuk peretasan etis, projek, pembelajaran. ketika kamu ingin install alat ini, saya akan memberitahukan bagaimana penginstallan alat Garuda NMAP nanti. alat yang saya ciptakan tidak sebagus dan secanggih versi NMAP yang asli.
 
 # Yang Bisa Di lakukan Garuda NMAP
 1. Scan Port
@@ -101,5 +101,5 @@ python3 garuda.py
 ```
 
 # Pemberitahuan Dari Saya
-Perlu di ingat lagi alat yang saya ciptakan bertujuan sebagai bentuk peretasan etis, projek, pembelajaran. saya mohon ketika kamu ingin menggunakan alat saya ini tolong di gunakan dengan baik dan jika kamu ingin melakukan scan port lebih lengkap lebih baik kamu gunakan versi NMAP yang asli. 
+Perlu di ingat lagi alat yang saya ciptakan tidak sebagus dan secanggih versi NMAP yang asli, alat Garuda NMAP bertujuan sebagai bentuk peretasan etis, projek, pembelajaran. saya mohon ketika kamu ingin menggunakan alat saya ini tolong di gunakan dengan baik dan jika kamu ingin melakukan scan port lebih lengkap lebih baik kamu gunakan versi NMAP yang asli. 
 
