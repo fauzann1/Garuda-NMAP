@@ -30,7 +30,7 @@ C:\Users\GalihAp76\nmap>garuda.py
 
  [>] Di Koding Oleh : Galih Anggoro Prasetya
  [>] Github         : https://github.com/galihap76
- [>] Website        : https://galihap76.github.io/dokumentasi-garuda-nmap.github.io/index.html
+ [>] Website        : https://galihap76.github.io/Garuda-NMAP.github.io/index.html
 
 
 
@@ -75,7 +75,7 @@ python3 garuda.py
 
  [>] Di Koding Oleh : Galih Anggoro Prasetya
  [>] Github         : https://github.com/galihap76
- [>] Website        : https://galihap76.github.io/dokumentasi-garuda-nmap.github.io/index.html
+ [>] Website        : https://galihap76.github.io/Garuda-NMAP.github.io/index.html
 
 
 
@@ -101,5 +101,5 @@ python3 garuda.py
 ```
 
 # Pemberitahuan Dari Saya
-Perlu di ingat lagi alat yang saya ciptakan tidak sebagus dan secanggih versi NMAP yang asli, alat Garuda NMAP bertujuan sebagai bentuk peretasan etis, projek, pembelajaran. saya mohon ketika kamu ingin menggunakan alat saya ini tolong di gunakan dengan baik dan jika kamu ingin melakukan scan port lebih lengkap lebih baik kamu gunakan versi NMAP yang asli. 
+Perlu di ingat lagi alat yang saya ciptakan tidak sebagus dan secanggih versi NMAP yang asli, alat Garuda NMAP bertujuan sebagai bentuk peretasan etis, projek, pembelajaran. saya mohon ketika kamu ingin menggunakan alat saya ini tolong di gunakan dengan baik dan jika kamu ingin melakukan scan port lebih lengkap lebih baik kamu gunakan versi NMAP yang asli. ouh ya kamu bisa kunjungi website nya https://galihap76.github.io/Garuda-NMAP.github.io/index.html jika kamu ingin mengetahui lagi dikit soal Garuda NMAP.
 
