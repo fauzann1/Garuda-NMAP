@@ -14,7 +14,7 @@ print(
 """
  [>] Di Koding Oleh : Galih Anggoro Prasetya
  [>] Github         : https://github.com/galihap76
- [>] Website        : https://galihap76.github.io/dokumentasi-garuda-nmap.github.io/index.html
+ [>] Website        : https://galihap76.github.io/Garuda-NMAP.github.io/index.html
 """
 )
 print('\n')
