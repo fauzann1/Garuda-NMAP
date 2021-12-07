@@ -99,6 +99,69 @@ python3 garuda.py
 
 [+] pilih nomor yang anda mau :
 ```
+#Hasil Penyerangan
+```
+  ____                      _         _   _ __  __    _    ____
+ / ___| __ _ _ __ _   _  __| | __ _  | \ | |  \/  |  / \  |  _ \
+| |  _ / _` | '__| | | |/ _` |/ _` | |  \| | |\/| | / _ \ | |_) |
+| |_| | (_| | |  | |_| | (_| | (_| | | |\  | |  | |/ ___ \|  __/
+ \____|\__,_|_|   \__,_|\__,_|\__,_| |_| \_|_|  |_/_/   \_\_|
+
+
+
+ [>] Di Koding Oleh : Galih Anggoro Prasetya
+ [>] Github         : https://github.com/galihap76
+ [>] Website        : https://galihap76.github.io/Garuda-NMAP.github.io/index.html
+
+
+
+
+================================
+[+]       GARUDA NMAP        [+]
+================================
+ [1] Scan Port
+ [2] Deteksi Sistem Operasi
+ [3] Deteksi Status Jaringan
+ [4] Bantuan
+ [5] Keluar
+
+================================
+
+[!] DISCLAIMER: menggunakan alat garuda NMAP dalam penyadapan sistem komputer ataupun bentuk tujuan meretas tanpa ijin oleh pihak itu sama dengan perbuatan ilegal.
+ alat garuda NMAP di ciptakan untuk pengujian penetrasi keamanan jaringan. saya tidak mau bertanggung jawab jika anda melakukan hal peretasan tanpa ijin oleh pihak!
+
+
+
+
+[+] pilih nomor yang anda mau : 1
+[+] masukkan sasaran pada garuda NMAP : 127.0.0.1
+[!] sedang mengscan
+[+] info pada sasaran :  {'tcp': {'method': 'syn', 'services': '1-2550'}}
+[+] status sasaran :  up
+[+] host : 127.0.0.1 ()
+[+] protokol : tcp
+-------------------------------------------
+[+] port : 80   keadaan : open
+[+] port : 135  keadaan : open
+[+] port : 137  keadaan : filtered
+[+] port : 443  keadaan : open
+[+] port : 445  keadaan : open
+[+] port : 1001 keadaan : filtered
+[+] port : 1220 keadaan : filtered
+[+] port : 1433 keadaan : open
+[+] port : 1536 keadaan : open
+[+] port : 1537 keadaan : open
+[+] port : 1538 keadaan : open
+[+] port : 1539 keadaan : open
+[+] port : 1540 keadaan : open
+[+] port : 1541 keadaan : open
+[+] port : 1658 keadaan : filtered
+[+] port : 2096 keadaan : filtered
+[+] port : 2315 keadaan : filtered
+
+
+[+] pilih nomor yang anda mau :
+```
 
 # Pemberitahuan Dari Saya
 Perlu di ingat lagi alat yang saya ciptakan tidak sebagus dan secanggih versi NMAP yang asli, alat Garuda NMAP bertujuan sebagai bentuk peretasan etis, projek, pembelajaran. saya mohon ketika kamu ingin menggunakan alat saya ini tolong di gunakan dengan baik dan jika kamu ingin melakukan scan port lebih lengkap lebih baik kamu gunakan versi NMAP yang asli. ouh ya kamu bisa kunjungi website nya https://galihap76.github.io/Garuda-NMAP.github.io/index.html jika kamu ingin mengetahui lagi dikit soal Garuda NMAP.
