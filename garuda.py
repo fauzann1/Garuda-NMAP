@@ -58,11 +58,6 @@ while True:
                  print("[+] port : %s\tkeadaan : %s" % (port, scanner[host][protokol][port]["state"]))
      except:
          print("[-] Maaf yang anda masukkan salah!")
-         
-#jika user bukan memilih nomor 1, 2, 3, 4, 5
- elif tanyaUser != "1" and tanyaUser != "2" and tanyaUser != "3" and tanyaUser != "4" and tanyaUser != "5":
-     #Kasih peringatan
-     print("[-] maaf nomor yang anda masukkan salah!")
 
 #jika selain user pilih nomor 2
  elif tanyaUser == '2':
@@ -102,6 +97,12 @@ while True:
      #keluar dari garuda NMAP
      exit
      break
+
+#jika user bukan memilih nomor 1, 2, 3, 4, 5
+ elif tanyaUser != "1" or tanyaUser != "2" or tanyaUser != "3" or tanyaUser != "4" or tanyaUser != "5":
+     #Kasih peringatan
+     print("[-] maaf nomor yang anda masukkan salah!")
+
 
 
 
