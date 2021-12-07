@@ -99,7 +99,7 @@ python3 garuda.py
 
 [+] pilih nomor yang anda mau :
 ```
-#Hasil Penyerangan
+# Hasil Penyerangan
 ```
   ____                      _         _   _ __  __    _    ____
  / ___| __ _ _ __ _   _  __| | __ _  | \ | |  \/  |  / \  |  _ \
