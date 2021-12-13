@@ -63,7 +63,7 @@ Dalam distro kali linux pada Garuda NMAP kamu cukup git clone dan copy di atas.
 
 # Pemakaian Garuda NMAP Pada Kali Linux
 ```
-cd Garuda-NMAP/
+cd Garuda-NMAP
 python3 garuda.py
   ____                      _         _   _ __  __    _    ____
  / ___| __ _ _ __ _   _  __| | __ _  | \ | |  \/  |  / \  |  _ \
